@@ -9,4 +9,5 @@ Unfortunately I have not had the chance to build and test the C executable in Wi
 as long as you have the Python `distutils` package installed. 
 - navigate into the main directory of the repo using a cmd or powershell window
 - issue the command `python3 setup.py build` to create an executable of the C code that Windows can use
+- move the Windows executable created in the previous step into the test folder
 - the CaesarCrypt object in test/test.py _*should*_ operate as expected now (again, I have not had the opportunity to test this myself 🤷‍♂️) 
