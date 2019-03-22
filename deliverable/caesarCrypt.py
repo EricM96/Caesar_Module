@@ -13,6 +13,7 @@ class CaesarCrypt(object):
 if __name__ == "__main__":
     myCrypt = CaesarCrypt(1)
     plaintext = "Hello World!"
+    original_text = "Hello World!"
     print("Plain text is:", plaintext)
     ciphertext = myCrypt.encrypt(plaintext)
     print("Cipher text is", ciphertext)
